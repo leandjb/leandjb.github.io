@@ -47,7 +47,7 @@
 	<!-- section: about me -->
 	<div class="intro section" id="about">
 		<div class="container">
-			<p translate="no">\<strong>Leandro Barros Ortiz</strong> \QA Automation Engineer \</p>
+			<p translate="no">\<strong>Leandro Barros Ortiz\</strong>QA Automation Engineer\</p>
 			<br><br>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
@@ -60,7 +60,7 @@
 				<p>
 					As a <b translate="no">QA Automation Engineer</b>, I bring extensive experience in applying
 					testing technologies within insurance and banking sectors, enhancing operational efficiency,
-					reducing development costs, and significantly improving software quality.
+					reducing development costs and significantly improving software quality.
 					<br><br>
 
 					Additionally, I've implemented <b translate="no">Testing Frameworks</b> for
@@ -88,10 +88,8 @@
 				<li>
 					<blockquote>
 						<p>
-							I was assigned to automate a process using E2E testing with <b>Selenium</b> and
-							<b>Playwright</b>
-							on a
-							web-based cheque platform for a Canadian Bank. The objective was to have control over
+							I'm automating a website using testing frameworks such as <b>Jest</b> or <b>Playwright</b>
+							on cheque platform for a Canadian Bank. The objective was to have control over
 							postable and unpostable transactions. Additionally, this automation resulted in a 20%
 							reduction in the hourly workload of the accounting department employees, allowing them to
 							reinvest that time in data analysis and other activities.
@@ -115,8 +113,8 @@
 							</ul>
 						</li>
 	
-						<p translate="no" class="tech-stack"><b>Tech Stack:</b> Playwright, JavaScript, Node.js, Cucumber,
-							Selenium, Java, JUnit, Jenkins, Github Actions
+						<p translate="no" class="tech-stack"><b>Tech Stack:</b> Playwright, Jest, JavaScript, Node.js, Cucumber,
+							Selenium, Java, JUnit, TestNG, Jenkins, Github Actions
 						</p>
 					</blockquote>
 				</li>
@@ -204,7 +202,7 @@
 				</li>
 
 				<p translate="no" class="tech-stack"><b>Tech Stack:</b> Jmeter, Postman, SoapUI, Selenium,
-					Java, JUnit, TestNG, MySQL</p>
+					Python, Java, JUnit, TestNG, MySQL</p>
 				</li>
 			</ul>
 		</div>
@@ -325,13 +323,14 @@
 	
 	<footer>
 		<div class="footer" id="social">
-		<div class="container">
-			<div class="units-row">
-				<div class="unit-50">
-					<h1>\Social_Media</h1>
-					<p><b>.email: </b><a href="mailto:ingleandrobarros@outlook.com">ingleandrobarros@outlook.com</a></p>
-
-				</div>
+			<div class="container">
+				<div class="units-row">
+					<div class="unit-50">
+						<h1>\Social_Media</h1>
+							<li>
+								<a href="mailto:ingleandrobarros@outlook.com">ingleandrobarros@outlook.com</a>
+							</li>
+					</div>
 				<div class="unit-50">
 					<ul class="social list-flat right">
 						<li><a href="https://github.com/leandjb"><i class="fa fa-github"></i></a></li>
@@ -343,19 +342,24 @@
 		</div>
 		</footer>
 		
-		<!-- JS -->
-		<script src="js/jquery.min.js"></script>
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
 	<script src="js/kube.min.js"></script>
 	<script src="js/site.js"></script>
 	<script>
-		function newTyped() { } $(function () {
+		function newTyped(){} 
+		$(function () 
+		{
 			$("#typed").typed({
+				strings: ["databases", "web_apps", "webservices", "API", "pipelines",  "our_world...", "anywhere!"],
 
-				strings: ["web apps", "api rest", "databases", "anywhere"],
+				typeSpeed: 90, backDelay: 600, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+			}), 
 
-				typeSpeed: 80, backDelay: 800, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
-			}), $(".reset").click(function () { $("#typed").typed("reset") })
+			$(".reset").click(
+				function () {
+					 $("#typed").typed("reset") })
 		});
 	</script>
 </body>
