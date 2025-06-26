@@ -1,22 +1,23 @@
 # Curriculum Vitae - QA Automation Engineer
 
-CV resume for share experiences and skills as a **QA Test Automation Engineer**.
+A concise CV and portfolio for a QA Test Automation Engineer.
 
-## Description
-I'm a dedicated QA Test Automation Engineer focused on ensuring software quality through thorough testing and automation. With a solid background in software development and quality assurance, I have developed skills to deliver reliable and efficient software solutions. 
+## About
+Experienced in QA automation, software testing, and CI/CD for banking, insurance, and AI-driven solutions. Skilled in building robust test frameworks and ensuring software quality.
 
-My strengths include creating strong test automation frameworks, finding and fixing software issues, and working with cross-functional teams to meet project goals.
-
- I am committed to continuous learning and staying updated with the latest industry trends and technologies to achieve the best results for every project I work on.
+## Website
+The `index.html` site showcases:
+- About Me, Experience, Skills, Achievements, and Contact sections
+- Work history, technical stack, and notable achievements
+- Social and contact links
 
 ## Skills
-- **Testing Frameworks:** Playwright, Cucumber, JUnit, TestNG
-- **Programming Languages:** JavaScript, TypeScript, Python, Java
+- **Frameworks:** Playwright, Cucumber, JUnit, TestNG
+- **Languages:** JavaScript, TypeScript, Python, Java
 - **Databases:** MySQL, SQL Server
-- **CI/CD Tools:** Jenkins, GitHub Actions
-- **Libraries:** Selenium, Great-expectations
-- **Software Tools:** JMeter, Postman, SoapUI, Node.js, Git, Jira
+- **CI/CD:** Jenkins, GitHub Actions
+- **Tools:** Selenium, Great-expectations, JMeter, Postman, SoapUI, Node.js, Git, Jira
 
-## Get in Touch
-- **LinkedIn:** https://www.linkedin.com/in/leandro-barros-ortiz-b7ba0b180/
-- **GitHub:** https://github.com/leandjb
+## Contact
+- [LinkedIn](https://www.linkedin.com/in/leandro-barros-ortiz-b7ba0b180/)
+- [GitHub](https://github.com/leandjb)
