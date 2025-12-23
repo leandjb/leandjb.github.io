@@ -12,19 +12,6 @@ The `index.html` site showcases:
 - Work history, technical stack, and notable achievements
 - Social and contact links
 
-
-## Tech Stack
-This CV webpage is built using:
-
-- **HTML5 & CSS3:** For semantic structure and modern, responsive layouts.
-- **SCSS:** Modular and maintainable styling, compiled to CSS for performance.
-- **JavaScript (ES6):** Adds interactivity and dynamic UI features.
-- **Kube CSS Framework:** Lightweight CSS framework for grid, typography, and UI components.
-- **Font Awesome:** For scalable vector icons and social/contact links.
-- **jQuery:** Simplifies DOM manipulation and event handling.
-
-All assets are static, making the site fast and easy to deploy on any web server or GitHub Pages. The codebase is organized for clarity and easy customization.
-
 ## Maintainer
 - [Email](ingleandrobarros@outlook.com) - ingleandrobarros@outlook.com
-- [LinkedIn](https://www.linkedin.com/in/leandro-barros-ortiz-b7ba0b180/)
+- [LinkedIn](https://www.linkedin.com/in/leandro-barros-b7ba0b180/)
